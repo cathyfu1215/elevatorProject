@@ -1,0 +1,1491 @@
+Welcome to the Elevator System!
+This system will simulate the operation of an elevator system.
+The system will be initialized with the following parameters:
+Number of floors: 11
+Number of elevators: 8
+Number of people: 3
+The system will then be run and the results will be displayed.
+
+Press enter to continue.
+
+Building constructor called
+numberOfFloors: 11
+numberOfElevators: 8
+elevatorCapacity: 3
+
+
+Building generated.
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Out Of Service
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Out of Service[Floor 0]
+elevator1: Out of Service[Floor 0]
+elevator2: Out of Service[Floor 0]
+elevator3: Out of Service[Floor 0]
+elevator4: Out of Service[Floor 0]
+elevator5: Out of Service[Floor 0]
+elevator6: Out of Service[Floor 0]
+elevator7: Out of Service[Floor 0]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+s
+Starting the building
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 0, Time 5]
+elevator1: Waiting[Floor 0, Time 5]
+elevator2: Waiting[Floor 0, Time 5]
+elevator3: Waiting[Floor 0, Time 5]
+elevator4: Waiting[Floor 0, Time 5]
+elevator5: Waiting[Floor 0, Time 5]
+elevator6: Waiting[Floor 0, Time 5]
+elevator7: Waiting[Floor 0, Time 5]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 0, Time 4]
+elevator1: Waiting[Floor 0, Time 4]
+elevator2: Waiting[Floor 0, Time 4]
+elevator3: Waiting[Floor 0, Time 4]
+elevator4: Waiting[Floor 0, Time 4]
+elevator5: Waiting[Floor 0, Time 4]
+elevator6: Waiting[Floor 0, Time 4]
+elevator7: Waiting[Floor 0, Time 4]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 1 3
+Adding request from floor 1 to floor 3
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(1)]1->3 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 0, Time 4]
+elevator1: Waiting[Floor 0, Time 4]
+elevator2: Waiting[Floor 0, Time 4]
+elevator3: Waiting[Floor 0, Time 4]
+elevator4: Waiting[Floor 0, Time 4]
+elevator5: Waiting[Floor 0, Time 4]
+elevator6: Waiting[Floor 0, Time 4]
+elevator7: Waiting[Floor 0, Time 4]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 9 2
+Adding request from floor 9 to floor 2
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(1)]1->3 
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: Waiting[Floor 0, Time 4]
+elevator1: Waiting[Floor 0, Time 4]
+elevator2: Waiting[Floor 0, Time 4]
+elevator3: Waiting[Floor 0, Time 4]
+elevator4: Waiting[Floor 0, Time 4]
+elevator5: Waiting[Floor 0, Time 4]
+elevator6: Waiting[Floor 0, Time 4]
+elevator7: Waiting[Floor 0, Time 4]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [1|^|C  ]< --  1 --  3 -- -- -- -- -- -- -->
+elevator1: Waiting[Floor 0, Time 3]
+elevator2: Waiting[Floor 0, Time 3]
+elevator3: Waiting[Floor 0, Time 3]
+elevator4: Waiting[Floor 0, Time 3]
+elevator5: Waiting[Floor 0, Time 3]
+elevator6: Waiting[Floor 0, Time 3]
+elevator7: Waiting[Floor 0, Time 3]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [1|^|O 3]< -- -- --  3 -- -- -- -- -- -- -->
+elevator1: Waiting[Floor 0, Time 2]
+elevator2: Waiting[Floor 0, Time 2]
+elevator3: Waiting[Floor 0, Time 2]
+elevator4: Waiting[Floor 0, Time 2]
+elevator5: Waiting[Floor 0, Time 2]
+elevator6: Waiting[Floor 0, Time 2]
+elevator7: Waiting[Floor 0, Time 2]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [1|^|O 2]< -- -- --  3 -- -- -- -- -- -- -->
+elevator1: Waiting[Floor 0, Time 1]
+elevator2: Waiting[Floor 0, Time 1]
+elevator3: Waiting[Floor 0, Time 1]
+elevator4: Waiting[Floor 0, Time 1]
+elevator5: Waiting[Floor 0, Time 1]
+elevator6: Waiting[Floor 0, Time 1]
+elevator7: Waiting[Floor 0, Time 1]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [1|^|O 1]< -- -- --  3 -- -- -- -- -- -- -->
+elevator1: [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [1|^|C  ]< -- -- --  3 -- -- -- -- -- -- -->
+elevator1: [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [2|^|C  ]< -- -- --  3 -- -- -- -- -- -- -->
+elevator1: [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [3|^|C  ]< -- -- --  3 -- -- -- -- -- -- -->
+elevator1: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [3|^|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 5 9
+Adding request from floor 5 to floor 9
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(1)]5->9 
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [3|^|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 3 6
+Adding request from floor 3 to floor 6
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(2)]5->9 3->6 
+Down Requests: [(1)]9->2 
+Elevator Reports: 
+elevator0: [3|^|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 9
+2
+Adding request from floor 9 to floor 2
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(2)]5->9 3->6 
+Down Requests: [(2)]9->2 9->2 
+Elevator Reports: 
+elevator0: [3|^|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 10 1
+Adding request from floor 10 to floor 1
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(2)]5->9 3->6 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [3|^|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 3 8
+Adding request from floor 3 to floor 8
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [3|^|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [3|^|O 2]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [3|^|O 1]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(3)]9->2 9->2 10->1 
+Elevator Reports: 
+elevator0: [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: Waiting[Floor 10, Time 5]
+elevator2: Waiting[Floor 10, Time 5]
+elevator3: Waiting[Floor 10, Time 5]
+elevator4: Waiting[Floor 10, Time 5]
+elevator5: Waiting[Floor 10, Time 5]
+elevator6: Waiting[Floor 10, Time 5]
+elevator7: Waiting[Floor 10, Time 5]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [10|v|O 3]< --  1  2 -- -- -- -- -- --  9 -->
+elevator2: Waiting[Floor 10, Time 4]
+elevator3: Waiting[Floor 10, Time 4]
+elevator4: Waiting[Floor 10, Time 4]
+elevator5: Waiting[Floor 10, Time 4]
+elevator6: Waiting[Floor 10, Time 4]
+elevator7: Waiting[Floor 10, Time 4]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [10|v|O 2]< --  1  2 -- -- -- -- -- --  9 -->
+elevator2: Waiting[Floor 10, Time 3]
+elevator3: Waiting[Floor 10, Time 3]
+elevator4: Waiting[Floor 10, Time 3]
+elevator5: Waiting[Floor 10, Time 3]
+elevator6: Waiting[Floor 10, Time 3]
+elevator7: Waiting[Floor 10, Time 3]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [10|v|O 1]< --  1  2 -- -- -- -- -- --  9 -->
+elevator2: Waiting[Floor 10, Time 2]
+elevator3: Waiting[Floor 10, Time 2]
+elevator4: Waiting[Floor 10, Time 2]
+elevator5: Waiting[Floor 10, Time 2]
+elevator6: Waiting[Floor 10, Time 2]
+elevator7: Waiting[Floor 10, Time 2]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 10, Time 5]
+elevator1: [10|v|C  ]< --  1  2 -- -- -- -- -- --  9 -->
+elevator2: Waiting[Floor 10, Time 1]
+elevator3: Waiting[Floor 10, Time 1]
+elevator4: Waiting[Floor 10, Time 1]
+elevator5: Waiting[Floor 10, Time 1]
+elevator6: Waiting[Floor 10, Time 1]
+elevator7: Waiting[Floor 10, Time 1]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 10, Time 4]
+elevator1: [9|v|C  ]< --  1  2 -- -- -- -- -- --  9 -->
+elevator2: [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 10, Time 3]
+elevator1: [9|v|O 3]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 10, Time 2]
+elevator1: [9|v|O 2]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 10, Time 1]
+elevator1: [9|v|O 1]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [9|v|C  ]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [8|v|C  ]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [7|v|C  ]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(3)]5->9 3->6 3->8 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [6|v|C  ]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+r 3 5
+Adding request from floor 3 to floor 5
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(4)]5->9 3->6 3->8 3->5 
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [6|v|C  ]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+rm
+Removing all requests:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [6|v|C  ]< --  1  2 -- -- -- -- -- -- -- -->
+elevator2: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+h
+Stopping the building
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator3: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator4: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator5: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator6: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator7: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: Out of Service[Floor 0]
+elevator3: Out of Service[Floor 0]
+elevator4: Out of Service[Floor 0]
+elevator5: Out of Service[Floor 0]
+elevator6: Out of Service[Floor 0]
+elevator7: Out of Service[Floor 0]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: Out of Service[Floor 0]
+elevator3: Out of Service[Floor 0]
+elevator4: Out of Service[Floor 0]
+elevator5: Out of Service[Floor 0]
+elevator6: Out of Service[Floor 0]
+elevator7: Out of Service[Floor 0]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator2: Out of Service[Floor 0]
+elevator3: Out of Service[Floor 0]
+elevator4: Out of Service[Floor 0]
+elevator5: Out of Service[Floor 0]
+elevator6: Out of Service[Floor 0]
+elevator7: Out of Service[Floor 0]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: [1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+elevator1: Out of Service[Floor 0]
+elevator2: Out of Service[Floor 0]
+elevator3: Out of Service[Floor 0]
+elevator4: Out of Service[Floor 0]
+elevator5: Out of Service[Floor 0]
+elevator6: Out of Service[Floor 0]
+elevator7: Out of Service[Floor 0]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Stopping
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Out of Service[Floor 0]
+elevator1: Out of Service[Floor 0]
+elevator2: Out of Service[Floor 0]
+elevator3: Out of Service[Floor 0]
+elevator4: Out of Service[Floor 0]
+elevator5: Out of Service[Floor 0]
+elevator6: Out of Service[Floor 0]
+elevator7: Out of Service[Floor 0]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+st
+Steps the building:
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Out Of Service
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Out of Service[Floor 0]
+elevator1: Out of Service[Floor 0]
+elevator2: Out of Service[Floor 0]
+elevator3: Out of Service[Floor 0]
+elevator4: Out of Service[Floor 0]
+elevator5: Out of Service[Floor 0]
+elevator6: Out of Service[Floor 0]
+elevator7: Out of Service[Floor 0]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+s
+Starting the building
+current building status is:
+
+****************************
+Building Report
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator System Status: Running
+Up Requests: [(0)]
+Down Requests: [(0)]
+Elevator Reports: 
+elevator0: Waiting[Floor 0, Time 5]
+elevator1: Waiting[Floor 0, Time 5]
+elevator2: Waiting[Floor 0, Time 5]
+elevator3: Waiting[Floor 0, Time 5]
+elevator4: Waiting[Floor 0, Time 5]
+elevator5: Waiting[Floor 0, Time 5]
+elevator6: Waiting[Floor 0, Time 5]
+elevator7: Waiting[Floor 0, Time 5]
+
+****************************
+Hint:
+Press 's' to start the building.
+Press 'h' to stop the building.
+Enter 'r startFloor endFloor' to add request.
+Press 'st' to step the building.
+Press 'rm' to remove all requests.
+Press 'q' to quit.
+q
+Quitting the system
+Goodbye!
+
+Process finished with exit code 0
